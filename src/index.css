@@ -541,7 +541,7 @@ body {
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
-  padding: 10px; /* evita que corte */
+  padding: 20px; /* evita que corte */
   z-index: 1000;
 }
 
