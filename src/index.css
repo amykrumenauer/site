@@ -7,7 +7,7 @@ body {
 /* ======== NAVBAR ======== */
 
 .header {
-  width: 100%;
+  width: 98%;
   height: 80px;
   background-color: #261B1B;
   display: flex;
@@ -577,13 +577,13 @@ body {
     position: absolute;
     top: 70px;
     right: 0;
+    background-color: #261B1B;
     width: 100%;
     flex-direction: column;
-    padding: 20px 10px; /* reduz padding lateral */
-    gap: 15px;          /* menor gap */
+    padding: 20px 0;
+    gap: 20px;
     display: none;
     text-align: center;
-    box-sizing: border-box; /* garante que padding não estoure largura */
   }
 
   .navbar.active {
@@ -591,10 +591,7 @@ body {
   }
 
   .nav-link {
-    display: block;       /* cada link em uma linha */
-    width: 100%;          /* ocupa toda a largura disponível */
     font-size: 18px;
-    white-space: normal;  /* quebra palavras se precisar */
   }
 
   .header {
