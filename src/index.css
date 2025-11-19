@@ -569,6 +569,18 @@ body {
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
+  .hero-pata,
+  .pata-bg,
+  .patinhas-bg,
+  .voluntario-pata,
+  .loja-pata,
+  .patinha-fundo {
+    max-width: 100%;
+    left: 50%;            /* centraliza */
+    right: auto;          /* garante que não vá pro lado */
+    transform: translateX(-50%);
+}
+
   body {
   overflow-x: hidden; /* esconde rolagem horizontal */
   }
