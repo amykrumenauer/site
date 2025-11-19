@@ -516,23 +516,6 @@ body {
 .icone:hover {
   transform: scale(1.15);
 }
-/* NAV DESKTOP */
-.navbar {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  transition: 0.3s;
-}
-
-.nav-link:hover {
-  color: #FFBB00;
-}
 
 /* ========== MENU HAMBÚRGUER ========== */
 
@@ -594,13 +577,13 @@ body {
     position: absolute;
     top: 70px;
     right: 0;
-    background-color: #261B1B;
     width: 100%;
     flex-direction: column;
-    padding: 20px 0;
-    gap: 20px;
+    padding: 20px 10px; /* reduz padding lateral */
+    gap: 15px;          /* menor gap */
     display: none;
     text-align: center;
+    box-sizing: border-box; /* garante que padding não estoure largura */
   }
 
   .navbar.active {
@@ -608,7 +591,10 @@ body {
   }
 
   .nav-link {
+    display: block;       /* cada link em uma linha */
+    width: 100%;          /* ocupa toda a largura disponível */
     font-size: 18px;
+    white-space: normal;  /* quebra palavras se precisar */
   }
 
   .header {
