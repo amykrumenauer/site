@@ -635,7 +635,7 @@ body {
   }
 
   .hero-pata {
-    width: 500px;
+    width: 400px;
     top: 50px;
     right: 0;
     opacity: 0.1;
@@ -667,7 +667,7 @@ body {
   }
 
   .pata-bg {
-    width: 500px;
+    width: 00px;
     left: 1%;
     bottom: 50px;
     top: 550px;
@@ -694,7 +694,7 @@ body {
   }
 
   .patinhas-bg {
-    width: 500px;
+    width: 400px;
     top: 700px;
     right: 0;
     opacity: 0.1;
@@ -718,7 +718,7 @@ body {
   }
 
   .loja-pata {
-    width: 500px;
+    width: 400px;
     left: 1%;
     bottom: 50px;
     top: 50px;
@@ -744,7 +744,7 @@ body {
   }
 
   .voluntario-pata {
-    width: 500px;
+    width: 400px;
     left: 1%;
     bottom: 500px;
     top: 250px;
@@ -758,7 +758,6 @@ body {
   .patinha-fundo {
     width: 400px;
     left: 5%;
-    opacity: 0.07;
   }
 
   .contato-titulo {
