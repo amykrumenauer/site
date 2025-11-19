@@ -20,7 +20,6 @@ body {
   padding: 0 20px;
 }
 
-/* Marca / Título */
 .brand {
   display: flex;
   align-items: center;
@@ -34,7 +33,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* Navegação */
 .navbar {
   display: flex;
   gap: 32px;
@@ -67,7 +65,6 @@ body {
   overflow: hidden;
 }
 
-/* PATA DE FUNDO */
 .hero-pata {
   position: absolute;
   right: 350px;
@@ -81,7 +78,6 @@ body {
   pointer-events: none;
 }
 
-/* TEXTO */
 .hero-text {
   max-width: 550px;
   text-align: left;
@@ -102,7 +98,6 @@ body {
   color: #261B1B;
 }
 
-/* BOTÃO */
 .hero-btn {
   display: inline-block;
   margin-top: 30px;
@@ -123,25 +118,23 @@ body {
   background-color: #e0a700;
 }
 
-/* IMAGEM DO GATO */
 .hero-img {
   width: 380px;
   border-radius: 40px;
 
-  position: relative; /* AGORA O Z-INDEX FUNCIONA */
-  z-index: 2; /* fica NA FRENTE da pata */
+  position: relative;
+  z-index: 2; 
 }
-
 
 /* ======== SOBRE ======== */
 .sobre-section {
   background-color: #261b1b;
   color: #ffffff;
-  padding: 80px 10%; /* antes era 150px */
+  padding: 80px 10%; 
   font-family: 'Flamenco', cursive;
   position: relative;
   width: 100%;
-  min-height: auto; /* antes era 100vh */
+  min-height: auto; 
   box-sizing: border-box;
 }
 
@@ -186,7 +179,7 @@ body {
 
 .pata-bg {
   position: absolute;
-  top: 0px; /* AQUI você controla a altura */
+  top: 0px; 
   left: 350px;
   width: 700px;
   opacity: 0.1;
@@ -292,7 +285,6 @@ body {
 
 /* ======== lOJA ======== */
 
-/* Seção */
 .loja {
   position: relative;
   background-color: #261B1B;
@@ -305,18 +297,16 @@ body {
   overflow: hidden;
 }
 
-/* Pata de fundo */
 .loja-pata {
   position: absolute;
-  top: 0px;       /* igual ao SOBRE */
-  left: 350px;    /* igual ao SOBRE */
+  top: 0px;       
+  left: 350px;   
   width: 700px;
-  opacity: 0.08;  /* mesmo tom suave */
+  opacity: 0.08; 
   z-index: 0;
   pointer-events: none;
 }
 
-/* Título */
 .loja-title {
   font-family: "Julius Sans One", sans-serif;
   font-size: 42px;
@@ -324,7 +314,6 @@ body {
   z-index: 2;
 }
 
-/* Texto */
 .loja-description {
   font-family: "Flamenco", cursive;
   font-size: 22px;
@@ -334,7 +323,6 @@ body {
   line-height: 1.4;
 }
 
-/* Imagem */
 .loja-img {
   width: 600px;
   border-radius: 40px;
@@ -343,7 +331,6 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* Botão */
 .loja-btn {
   display: inline-block;
   background-color: #00C29F;
@@ -358,7 +345,6 @@ body {
   z-index: 2;
 }
 
-/* Hover do botão */
 .loja-btn:hover {
   background-color: #261B1B;
   color: #00C29F;
@@ -420,10 +406,10 @@ body {
 
 .voluntario-pata {
   position: absolute;
-  top: 10px;     /* ajusta a altura */
-  left: 700px;   /* ajusta posição horizontal */
-  width: 700px;  /* tamanho igual ao do SOBRE */
-  opacity: 0.10; /* mesma transparência */
+  top: 10px;     
+  left: 700px;  
+  width: 700px;  
+  opacity: 0.10; 
   z-index: 0;
   pointer-events: none;
 }
@@ -524,7 +510,7 @@ body {
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
-  padding: 20px; /* evita que corte */
+  padding: 20px; 
   z-index: 1000;
 }
 
@@ -559,13 +545,13 @@ body {
   .loja-pata,
   .patinha-fundo {
     max-width: 100%;
-    left: 50%;            /* centraliza */
-    right: auto;          /* garante que não vá pro lado */
+    left: 50%;           
+    right: auto;          
     transform: translateX(-50%);
 }
 
   body {
-  overflow-x: hidden; /* esconde rolagem horizontal */
+  overflow-x: hidden; 
   }
 
   /* ===== MENU ===== */
@@ -676,7 +662,7 @@ body {
   /* ===== ADOTAR ===== */
   .adotar-section {
     padding: 50px 20px;
-    position: relative;      /* <-- ESSENCIAL */
+    position: relative;      
     overflow: visible; 
   }
 
@@ -779,4 +765,4 @@ body {
   .icone {
     font-size: 32px;
   }
-} /* <-- FINAL DO @media */
+}

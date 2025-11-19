@@ -1,5 +1,5 @@
 import "../index.css";
-import pata from "../assets/patas.png"; // imagem da pata grande
+import pata from "../assets/patas.png";
 
 export default function QueroAdotar() {
   return (
@@ -13,7 +13,7 @@ export default function QueroAdotar() {
         overflow: "hidden",
       }}
     >
-      {/* 🔸 Pata grande atrás, igual Hero */}
+      
       <img src={pata} alt="Pata de fundo" className="patinhas-bg" />
 
       <h2 className="adotar-titulo" style={{ position: "relative", zIndex: 1 }}>
