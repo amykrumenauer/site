@@ -29,7 +29,7 @@ export default function Voluntariado() {
 
         {/* CARD 2 */}
         <div className="vol-card">
-          <h3>Como você pode ajudar:</h3>
+          <h3>Como você pode ajudar</h3>
           <p>
             Dar amor e cuidados nos abrigos, ajudar nas feirinhas de adoção,
             divulgar nossos peludos nas redes e recolher doações e ração.

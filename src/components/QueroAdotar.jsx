@@ -33,7 +33,7 @@ export default function QueroAdotar() {
           <h3>Primeiro contato</h3>
           <p>
             Envie uma mensagem para a gente pelo direct do Instagram. Faremos uma entrevista
-            rápida para conhecer melhor o ambiente. Ou adiante o processo pelo forms abaixo.
+            rápida para conhecer melhor o ambiente.
           </p>
         </div>
 

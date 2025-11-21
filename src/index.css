@@ -544,7 +544,7 @@ body {
   .voluntario-pata,
   .loja-pata,
   .patinha-fundo {
-    max-width: 100%;
+    max-width: 90%;
     left: 50%;           
     right: auto;          
     transform: translateX(-50%);
@@ -620,14 +620,6 @@ body {
     width: 250px;
   }
 
-  .hero-pata {
-    width: 400px;
-    top: 50px;
-    right: 0;
-    opacity: 0.1;
-  }
-
-
   /* ===== SOBRE ===== */
   .sobre-section {
     padding: 60px 30px;
@@ -652,13 +644,6 @@ body {
     width: 280px;
   }
 
-  .pata-bg {
-    width: 00px;
-    left: 1%;
-    bottom: 50px;
-    top: 550px;
-  }
-
   /* ===== ADOTAR ===== */
   .adotar-section {
     padding: 50px 20px;
@@ -679,13 +664,6 @@ body {
     max-width: 280px;
   }
 
-  .patinhas-bg {
-    width: 400px;
-    top: 700px;
-    right: 0;
-    opacity: 0.1;
-  }
-
   /* ===== LOJA ===== */
   .loja {
     padding: 60px 20px;
@@ -701,13 +679,6 @@ body {
 
   .loja-img {
     width: 280px;
-  }
-
-  .loja-pata {
-    width: 400px;
-    left: 1%;
-    bottom: 50px;
-    top: 50px;
   }
 
 
@@ -729,21 +700,9 @@ body {
     font-size: 16px;
   }
 
-  .voluntario-pata {
-    width: 400px;
-    left: 1%;
-    bottom: 500px;
-    top: 250px;
-  }
-
   /* ===== CONTATO ===== */
   #contato {
     padding: 40px 20px;
-  }
-
-  .patinha-fundo {
-    width: 300px;
-    left: 5%;
   }
 
   .contato-titulo {
