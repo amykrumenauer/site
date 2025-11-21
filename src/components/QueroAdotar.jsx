@@ -54,6 +54,7 @@ export default function QueroAdotar() {
         </div>
       </div>
 
+      {/* 
       <a
         href="https://forms.gle/2Qo2NvGUcr8k3ED18"
         target="_blank"
@@ -63,6 +64,7 @@ export default function QueroAdotar() {
       >
         Formulário de Adoção
       </a>
+      */}
     </section>
   );
 }
